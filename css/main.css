@@ -4357,20 +4357,9 @@ section.main-page-purity {
     width: 100%;
     height: 100px;
     display: block;
-    background: transparent;
-    /* Old browsers */
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(100%, #fff));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, transparent 0%, #fff 100%);
-    /* Chrome10+,Safari5.1+ */
-    /* Opera 11.10+ */
-    /* IE10+ */
     background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fff));
-    background: linear-gradient(to bottom, transparent 0%, #fff 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
-    /* IE6-9 */ }
+    background: -webkit-linear-gradient(top, transparent 0%, #fff 100%);
+    background: linear-gradient(to bottom, transparent 0%, #fff 100%);  }
 
 .main-page-actions__inner {
   display: -webkit-box;
